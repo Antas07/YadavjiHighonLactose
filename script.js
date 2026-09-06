@@ -1,0 +1,1 @@
+document.querySelectorAll('[data-soon]').forEach(card=>card.addEventListener('click',e=>{e.preventDefault();const el=card.querySelector('.game-copy span');const old=el.textContent;el.textContent='IN DEVELOPMENT';setTimeout(()=>el.textContent=old,1200)}));
